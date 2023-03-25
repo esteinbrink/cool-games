@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Cool Games That I Like!</title>
+        <link rel="stylesheet" href="style_2.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="nav">
+       <!-- using html and css from JoGeek's codepen Pure CSS Responsive navbar -->
+  <input type="checkbox" id="nav-check">
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="stardew.html">Stardew Valley</a>
+    <a href="ddv.html">Disney Dreamlight Valley</a>
+
+  </div>
+</div>
+
+        <h1>Cool Games That I Like!</h1>
+        <h2>A website devoted to talking about cool games that I like</h2>
+        <div class="section-a">
+            <h3>About</h3>
+            <div class="clearfix">
+                <img
+                    class="profile-img col-narrow"
+                    src="emma.jpg"
+                    alt="A picture of Emma, a white girl with curly brown hair and an orange headband, wearing a green sweater, standing in the sun and smiling">
+                <div class="col-wide">
+                    <p>
+                        Hi! I'm Emma and I like games! This website is dedicated
+                        to telling you about games that I like and why I like
+                        them. See below for links to games I enjoy!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section-b">
+            <h3>Games I Like:</h3>
+            <ul>
+                <li class="b"><a href="stardew.html">Stardew Valley</a></li>
+                <li class="b"><a href="ddv.html">Disney Dreamlight Valley</a></li>
+                <li class="b">Hades</li>
+                <li class="b">Eastward</li>
+            </ul>
+        </div>
+        <div class="section-a">
+            <h3>People I Like (To Watch Play Games):</h3>
+            <ul>
+                <li class="b">
+                    <a
+                        href="https://www.youtube.com/channel/UCYLHs-NR2le96KKqXofUOXg"
+                        >Gab Smolders</a
+                    >
+                </li>
+                <li class="b">
+                    <a href="https://www.youtube.com/@TheMcElroyFamily"
+                        >The McElroy Brothers</a
+                    >
+                </li>
+                <li class="b">
+                    <a href="https://www.youtube.com/@psoymilk"
+                        >ChiChi (psoymilk)</a
+                    >
+                </li>
+            </ul>
+        </div>
+        <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+        <footer>
+            <p>Copyright 2023 by Emma Steinbrink</p>
+        </footer>
+    </body>
+</html>
